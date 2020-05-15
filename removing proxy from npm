@@ -1,0 +1,6 @@
+npm config rm proxy
+npm config rm https-proxy
+
+to check proxy ---> npm config list
+
+netsh winhttp reset proxy (to remove settings from cmd)
